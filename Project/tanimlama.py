@@ -6,7 +6,7 @@ from sklearn.metrics import confusion_matrix, accuracy_score, classification_rep
 from sklearn.neural_network import MLPClassifier
 from sklearn.naive_bayes import GaussianNB
 # Dosyanın yolu
-file_path = "C:/Users/TR/Desktop/Kitap.csv"  # Yüklediğiniz dosyanın yolunu buraya koyun
+file_path = "C:/Users/TR/Desktop/DataSet.csv"  
 
 # CSV dosyasını okuma
 data = pd.read_csv(file_path, sep=';')
