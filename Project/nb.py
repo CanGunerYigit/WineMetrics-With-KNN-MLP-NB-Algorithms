@@ -5,7 +5,7 @@ from sklearn.metrics import confusion_matrix, accuracy_score, classification_rep
 from sklearn.preprocessing import StandardScaler
 from sklearn.naive_bayes import GaussianNB
 
-# s.py dosyasındaki data verisini al
+
 data = tanimlama.data
 
 # Veriyi ayırma
