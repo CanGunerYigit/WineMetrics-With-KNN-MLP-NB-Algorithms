@@ -5,7 +5,7 @@ from sklearn.metrics import confusion_matrix, accuracy_score, classification_rep
 from sklearn.preprocessing import StandardScaler
 
 
-data = tanimlama.data  # Veriyi s.py'den alıyoruz
+data = tanimlama.data 
 
 X,y = data.iloc[:,1:], data.iloc[:,0]
 X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.5, random_state= 0, stratify = y)
